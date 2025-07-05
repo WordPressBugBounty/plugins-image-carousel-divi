@@ -2,7 +2,7 @@
 Contributors: themeythemes
 Tags: divi, image carousel, divi module, divi carousel
 Requires at least: 5.0
-Tested up to: 6.5
+Tested up to: 6.8
 Requires PHP: 5.6
 Stable tag: trunk
 License: GPLv2 or later
