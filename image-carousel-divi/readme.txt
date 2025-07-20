@@ -3,8 +3,8 @@ Contributors: themeythemes
 Tags: divi, image carousel, divi module, divi carousel
 Requires at least: 5.0
 Tested up to: 6.8
-Requires PHP: 5.6
-Stable tag: trunk
+Requires PHP: 7.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -14,19 +14,44 @@ This plugin add an image carousel module to the Divi theme.
 
 Add image carousels on your website with the Divi Image Carousel plugin. This plugin adds a new Image Carousel module in the Divi Builder. Once you activate the plugin a new module will appear in your module list by the name of Image Carousel. You can then use the module to add an Image Carousel anywhere inside the Divi Builder.
 
-# Features
-* Visual Builder Supported
-* Center Mode layout
-* Synced Slider layout (A small carousel syncs with the full size image above)
-* Autoplay Animation
-* Infinite Animation
-* Choose the number of images you want to show in the carousel.
-* Choose the number of images to scroll when the arrow is clicked or on autoplay.
+Transform your Divi website with the **Image Carousel Module for Divi**, the ultimate solution for creating stunning, responsive image carousels and sliders. Whether you're showcasing portfolios, products, team showcases, or galleries, this powerful Divi module gives you complete control over design, layout, and animation.
 
-[Divi Image Carousel Demo](https://www.learnhowwp.com/divi-image-carousel-plugin/)
+With seamless integration into the Divi Builder, the Image Carousel Module allows you to add visually appealing sliders anywhere on your website. Choose from multiple layouts, including Center Mode, Synced Slider, and Vertical Slider, and customize every aspect of your carousel to match your website’s style and functionality.
 
-**Plugin Tutorial:**
-[How to Create an Image Carousel in Divi](https://www.learnhowwp.com/how-to-create-image-carousel-divi-free-plugin/)
+### Why Choose Image Carousel Module for Divi?
+
+- **Fully Responsive:** Adjust slides count, scroll, arrows, and dots for desktop, tablet, and mobile.
+- **Multiple Layouts:** Choose from Default, Center Mode, Synced Slider, or Vertical Slider layouts.
+- **Customizable Navigation:** Show or hide arrows and dots, and style them with custom colors, backgrounds, and positions.
+- **Advanced Animation Options:** Enable autoplay, infinite looping, and set animation speeds for smooth transitions.
+- **SEO-Friendly:** Add alt and title attributes to images for better accessibility and search engine optimization.
+- **Design Flexibility:** Customize borders, box shadows, and padding for images, center images, and main images.
+- **Easy to Use:** No coding required—just drag, drop, and customize in the Divi Builder.
+
+### Key Features:
+
+- **Visual Builder Integration:** Add and edit carousels directly in the Divi Visual Builder.
+- **Autoplay Animation:** Automatically scroll through images with adjustable animation speed.
+- **Infinite Animation:** Enable seamless looping for a continuous carousel experience.
+- **Center Mode Layout:** Highlight the center image with customizable padding and styling.
+- **Synced Slider Layout:** Sync a thumbnail carousel with a larger image slider for better navigation.
+- **Responsive Controls:** Adjust slides count, scroll, arrows, and dots for different devices.
+- **Custom CSS Easing:** Choose from ease, linear, ease-in, ease-out, or ease-in-out for smooth animations.
+- **Arrow and Dot Customization:** Style navigation elements with custom colors, hover effects, and positions.
+- **Border and Box Shadow Styling:** Add borders and shadows to images for a polished look.
+
+### How It Works:
+
+1. **Activate the Plugin:** Once activated, the "Image Carousel" module will appear in your Divi Builder module list.
+2. **Add the Module:** Drag and drop the Image Carousel module into any section of your Divi layout.
+3. **Customize Your Carousel:** Select images, adjust layout settings, enable animations, and style navigation elements—all from the intuitive module settings panel.
+4. **Publish and Enjoy:** Save your changes and watch your carousel come to life on your website.
+
+### Demo & Tutorial:
+
+- [Divi Image Carousel Demo](https://www.learnhowwp.com/divi-image-carousel-plugin/)  
+- [How to Create an Image Carousel in Divi](https://www.learnhowwp.com/how-to-create-image-carousel-divi-free-plugin/)
+
 
 
 **More Free Divi Plugins**
@@ -71,6 +96,15 @@ You can change the number of images on each slide of carousel in Module Settings
 You can change the number of images that scroll by changing the Slides Scroll setting at Module Settings > Content > Elements > Slides Scroll.
 
 == Changelog ==
+
+=1.0.1=
+* Added support for configuring cssease (CSS easing options).
+* Added rating notice.
+* Fixed PHPCS errors using phpcbf and added missing doc comments for better code quality.
+* Escaped output in lwp_hook_css function.
+* Added nonce verification in lwp_get_carousel_images function.
+* Removed default null value from $content parameter in render() method to fix warning.
+* Replaced json_encode() with wp_json_encode() for safer JSON encoding in WordPress.
 
 =1.0=
 * Added option for speed animation.
